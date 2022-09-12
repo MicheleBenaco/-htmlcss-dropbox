@@ -152,6 +152,8 @@ main h2{
     font-size: 40px;
     padding-bottom: 80px;
 }
+
+
  
 .cont-card{
     margin-top: 80px;
@@ -222,6 +224,13 @@ h6{
     margin-bottom: 30px;
     margin-left: -40px;
 
+}
+.button2{
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 8px 70px;
+    margin-right: 10px;
 }
 
 .card-button a{
