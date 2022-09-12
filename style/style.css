@@ -44,7 +44,7 @@ ul{
 
 }
 
-a{
+ul.d-flex a{
     text-decoration: none;
     color: var(--black);
 }
@@ -157,11 +157,14 @@ main h2{
     margin-top: 80px;
     display: flex;
     align-items: stretch;
+   
 }
 
 .card{
-    width: 300px;
-    height: 50vh;
+    /* width: 250px; */
+    height: 80vh;
+    align-items: stretch;
+    width: calc(100% / 3 );
 
 }
 
@@ -172,7 +175,12 @@ main h2{
     margin-bottom: 40px;
     font-size: 15px;
     font-weight: 100;
+
 }
+.center{
+    text-align: center;
+}
+
 .material-symbols-outlined{
     color: var(--black);
    
@@ -183,6 +191,63 @@ h4{
     font-size: 27px;
 
 }
+
+ .costo{
+    margin: 20px;
+    font-weight: 800;
+}
+
+h6{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(130, 130, 130);
+}
+
+.descrizione1{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.descrizione2{
+    margin-top: 30px;
+    margin-left: 20px;
+    /* padding: 10px; */
+    font-weight: 100;
+}
+.card-button{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: -40px;
+
+}
+
+.card-button a{
+    text-decoration: none;
+}
+
+#buy-now{
+    margin-left: 20px;
+    
+}
+
+.best-point{
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+
+.best-point h2{
+    font-size: 15px;
+  
+}
+
+.best-point p{
+    padding: 10px;
+}
+
 
 footer{
     width: 100%;
