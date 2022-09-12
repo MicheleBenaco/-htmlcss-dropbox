@@ -80,6 +80,14 @@ li {
     padding-left: 40px;
 }
 
+.button1{
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 8px 15px;
+    margin-right: 10px;
+
+}
 
 
 
@@ -92,14 +100,29 @@ li {
     padding: 80px;
 }
 
-.button1{
-    border: 1px solid var(--blue);
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 8px 15px;
-    margin-right: 10px;
+#hero .conteiner{
+    position: relative;
+    bottom: -80px;
+}
+
+h1{
+    font-size: 70px;
+    padding: 50px;
+    font-weight: 800;
+}
+
+.d30{
+    width: 30%;
 
 }
+
+.di70{
+    width: 70%;
+}
+img .di70{
+    width: 100%;
+}
+
 
 /* footer */
 
