@@ -10,6 +10,7 @@
     --white: rgb(255, 255, 255);
     --lightblue:rgb(180, 208, 231);
     --blue:rgb(0, 97, 255);
+    --black:rgb(0, 0, 0);
 }
 
 .debug{
@@ -21,7 +22,7 @@ body{
     background-color: var(--white);
 }
 
-.d.flex{
+.d-flex{
     display: flex;
 }
 
@@ -37,7 +38,20 @@ body{
 
 }
 
+ul{
+    list-style: none;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
 /* header */
+
+/* nav */
 nav{
     width: 100%;
     position: fixed;
@@ -48,6 +62,29 @@ nav{
     background-color: var(--white);
 }
 
+.d-flex-header{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px ;
+    padding-right: 5px;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.d-flex-right{
+    display: flex;
+}
+
+li {
+    padding-left: 40px;
+}
+
+
+
+
+/* hero */
+
 #hero{
     width: 100%;
     background-color: var(--lightblue);
@@ -55,8 +92,13 @@ nav{
     padding: 80px;
 }
 
-.d.flex-right{
-    display: flex;
+.button1{
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 8px 15px;
+    margin-right: 10px;
+
 }
 
 /* footer */
