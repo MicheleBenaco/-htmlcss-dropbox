@@ -85,7 +85,8 @@ li {
     background-color: var(--blue);
     color: var(--white);
     padding: 8px 15px;
-    margin-right: 10px;
+    text-decoration: none;
+    
 
 }
 
@@ -163,16 +164,17 @@ main h2{
 }
 
 .card{
-    /* width: 250px; */
-    height: 80vh;
+    width: 500px;
+    height: 85vh;
     align-items: stretch;
-    width: calc(100% / 3 );
+    width: calc((100% / 3)-10px );
+    margin: 0 10px;
 
 }
 
 .card-name{
     padding: 20px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
     margin-bottom: 40px;
     font-size: 15px;
@@ -215,9 +217,17 @@ h6{
 .descrizione2{
     margin-top: 30px;
     margin-left: 20px;
-    /* padding: 10px; */
+    padding-bottom: 20px;
     font-weight: 100;
 }
+.descrizione3{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 8px;
+    font-weight: 100;
+}
+
+
 .card-button{
     text-align: center;
     margin-top: 40px;
@@ -231,6 +241,7 @@ h6{
     color: var(--white);
     padding: 8px 70px;
     margin-right: 10px;
+    
 }
 
 .card-button a{
