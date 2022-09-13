@@ -455,17 +455,27 @@ h6{
   
   
 
-
-
-
-
-
-
-
-
 /* footer */
 footer{
     width: 100%;
     background-color: black;
     color: white;
+    padding-top: 50px;
+    height: 30vh;
+}
+.conteiner-ul{
+    width: calc(100% / 5);
+}
+
+.conteiner-ul a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 20px 0 ;
+}
+
+li h3{
+    padding-bottom: 20px;
+}
+.conteiner-ul li{
+    padding-bottom: 10px;
 }
